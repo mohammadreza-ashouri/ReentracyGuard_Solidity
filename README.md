@@ -1,6 +1,6 @@
 # ReentracyGuard_Solidity
 
-## What is the Reengtracny attack?
+## What is the Reentrancy attack?
 
 A reentrancy attack occurs when a malicious function invoke an external function in another vulnerable contract.
 Then the untrusted contract make a recursive call back to the original function in an attempt to drain funds.
